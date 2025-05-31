@@ -140,3 +140,35 @@ blockquote{
     font-weight: bold;
     margin: 0;
 }
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    margin: 50px 150px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    align-self: flex-end;
+}
+
+.action-section button{
+    align-self: flex-end;
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.action-header{
+    font-size: 16px;
+    font-weight: bold;
+}
