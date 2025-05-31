@@ -1,0 +1,50 @@
+html, body{
+    height:100%;
+}
+
+body{
+    margin:0;
+
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 20px 150px;
+
+
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.footer{
+    margin-top: auto;
+    background-color: #1F2937;
+    
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+
+}
+
+.body{
+    flex:1;
+}
